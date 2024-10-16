@@ -1,0 +1,383 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+}
+
+.navBar {
+  display: flex;
+  background-color: bisque;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  padding-left: 50px;
+  flex-wrap: wrap;
+}
+
+.nameButton {
+  height: 50px;
+  width: 10%;
+  align-items: center;
+  font-size: 50px;
+  padding-left: 40px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headerButtons {
+  right: 0;
+  padding-right: 30px;
+  font-size: 25px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  gap: 35px;
+}
+
+.blogs {
+  height: 100vh;
+  display: flex;
+  margin: 20px;
+  gap: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.firstBlog {
+  background-color: bisque;
+  height: 530px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.firstBlog:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.firstChildContainer {
+  justify-content: center;
+  height: 200px;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px ;
+  margin: 10px;
+}
+
+.firstImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.heading-1 {
+  padding: 6px;
+  font-size: 20px;
+}
+
+.text-1 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.btn-1 {
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.secondBlog {
+  background-color: bisque;
+  height: 530px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.secondBlog:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.secondChildContainer {
+  justify-content: center;
+  height: 200px;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px ;
+  margin: 10px;
+}
+
+.secondImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.heading-2 {
+  padding: 6px;
+  font-size: 20px;
+}
+
+.text-2 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.btn-2 {
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.thirdBlog {
+  background-color: bisque;
+  justify-content: center;
+  height: 530px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.thirdBlog:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.thirdChildContainer {
+  height: 200px;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px ;
+  margin: 10px;
+}
+
+.thirdImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.heading-3 {
+  padding: 6px;
+  font-size: 20px;
+}
+
+.text-3 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.btn-3 {
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.fourthBlog {
+  background-color: bisque;
+  height: 530px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.fourthBlog:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.fourthChildContainer {
+  height: 200px;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px ;
+  margin: 10px;
+}
+
+.fourthImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.heading-4 {
+  padding: 6px;
+  font-size: 20px;
+}
+
+.text-4 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.btn-4 {
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.blogs-row-2 {
+  display: flex;
+  margin: 20px;
+  gap: 70px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.fifthBlog {
+  background-color: bisque;
+  height: 530px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.fifthBlog:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.fifthChildContainer {
+  height: 200px;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px ;
+  margin: 10px;
+}
+
+.fifthImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.heading-5 {
+  padding: 6px;
+  font-size: 20px;
+}
+
+.text-5 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.btn-5 {
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.sixthBlog {
+  background-color: bisque;
+  height: 530px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.sixthBlog:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sixthChildContainer {
+  height: 200px;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px ;
+  margin: 10px;
+}
+
+.sixthImage {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.heading-6 {
+  padding: 6px;
+  font-size: 20px;
+}
+
+.text-6 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.btn-6 {
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: bisque;
+  height: 80px;
+  width: 100%;
+  bottom: 0%;
+  top: 145%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  position: absolute;
+  
+}
+
+.about {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.aboutLine {
+  font-size: 35px;
+  padding-left: 20px;
+}
+
+.email {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.emailAddress{
+  font-size: 35px;
+  padding-left: 20px;
+}
